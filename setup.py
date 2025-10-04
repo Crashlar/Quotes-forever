@@ -362,3 +362,5 @@ if __name__ == "__main__":
     print("   ✅ setup.py (Enhanced data fetcher)")
     print("   ✅ requirements.txt (Dependencies)")
     print("   ✅ streamlit_app.py (Main application)")
+
+    
