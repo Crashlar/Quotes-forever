@@ -31,20 +31,14 @@ A beautiful and inspirational web application that delivers curated quotes based
 
 ### Step-by-Step Setup
 
-1. **Create Project Directory**
+1. **clone the repo**
    ```bash
-   md quotes-forever
-   cd quotes-forever
+   https://github.com/Crashlar/Quotes-forever.git
    ```
 
-2. **Create Project Files**
-   Save all the provided Python files in your project directory:
-   - `setup.py`
-   - `streamlit_app.py`
-   - `requirements.txt`
-
-3. **Run the Setup Script**
+2. **Run the Setup Script**
    ```bash
+   pip install -r requirements.txt
    python setup.py
    ```
    This will:
@@ -53,12 +47,7 @@ A beautiful and inspirational web application that delivers curated quotes based
    - Generate comprehensive mood-based quotes
    - Populate the database with hundreds of quotes
 
-4. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Launch the Application**
+3. **Launch the Application**
    ```bash
    streamlit run streamlit_app.py
    ```
@@ -66,7 +55,7 @@ A beautiful and inspirational web application that delivers curated quotes based
 ## Project Structure
 
 ```
-quotes-forever/
+Quotes-forever/
 │
 ├── streamlit_app.py          # Main Streamlit application
 ├── setup.py                  # Database setup and data fetcher
@@ -118,11 +107,12 @@ quotes-forever/
   - Quotable API
   - Forismatic API
   - TypeFit API -->
-
+  
+<!-- 
 ### Key Dependencies
 - `streamlit>=1.28.0` - Web application framework
 - `requests>=2.31.0` - HTTP library for API calls
-- `sqlite3` - Database management
+- `sqlite3` - Database management -->
 <!-- 
 ## Usage Guide
 
